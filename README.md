@@ -1,30 +1,26 @@
 # sungshin
 
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
 
-<html>
- <head>
-  <title> 필드셋 요소 </title>
-  <meta name="Generator" content="EditPlus">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
- </head>
- <body>
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
 
- <fieldset>
-     <legend>로그인</legend>
-  <label for="id">아이디</label>
-  <input type="text" name="id" id="id" title="아이디" value="아이디"/>
-  <label for="pass">비밀번호</label>
-  <input type="password" name="pass" id="pass" title="비밀번호" value="비밀번호"/>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-  
-  <input type="checkbox" name="remember" id="remember"/>
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+
  
-  <label for="remember"> 아이디저장</label>
-  <input type="submit" value="로그인"/>
-
-</fieldset>
-
- </body>
-</html>
